@@ -1,0 +1,77 @@
+{
+  "RootNamespace": "OrderManagementSystem",
+  "ServerTypings": {
+    "Assemblies": []
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "orderManagement.Customer",
+          "Identifier": "Customer",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.Inventory",
+          "Identifier": "outwards",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.Order",
+          "Identifier": "Order",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.OrderProduct",
+          "Identifier": "OrderProduct",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.Product",
+          "Identifier": "Product",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.Region",
+          "Identifier": "Region",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.ShipmentOrder",
+          "Identifier": "ShipmentOrder",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.ShipmentProduct",
+          "Identifier": "ShipmentProduct",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.Shipper",
+          "Identifier": "Shipper",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orderManagement.Supplier",
+          "Identifier": "Supplier",
+          "Module": "OrderManagement",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": [],
+  "CustomGenerate": {},
+  "CustomSettings": {}
+}
